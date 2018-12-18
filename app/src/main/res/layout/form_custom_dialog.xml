@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8f5e9"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:elevation="1dp"
+                    android:background="#e8f5e9"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ceklis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:layout_marginTop="10dp"
+                        android:tint="@color/toolbar"
+                        android:elevation="4dp"
+                        android:src="@drawable/ic_ceklis"
+                        android:contentDescription="@string/description"/>
+
+
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berhasil Masuk ke Keranjang . ."
+                    android:textStyle="bold"      />
+
+
+
+
+
+
+
+
+
+
+
+                                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="1dp"
+                android:background="#e8f5e9"
+                android:layout_marginBottom="5dp"
+                 android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/thumbnailCustomDialog"/>
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/nama_makanan"
+            android:text="Nama Makanan"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/harga_makanan"
+            android:text="Harga Makanan"/>
+
+
+                </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/buttonBayar"
+                android:layout_marginTop="30dp"
+                android:background="@color/toolbar"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lanjut Ke Pembayaran"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

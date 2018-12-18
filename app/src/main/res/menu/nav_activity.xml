@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logOut"
+        android:orderInCategory="100"
+        android:title="Keluar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="cari"
+        android:iconTint="#fff"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/pesan"
+        android:orderInCategory="100"
+        android:title="pesan"
+        android:iconTint="#fff"
+        android:icon="@drawable/ic_pesan"
+        app:showAsAction="always" />
+</menu>
